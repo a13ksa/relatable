@@ -1,0 +1,25 @@
+CREATE TABLE users(
+    id int PRIMARY KEY AUTO_INCREMENT,
+    username varchar(12),
+    password varchar(16)
+);
+CREATE TABLE posts(
+    id int PRIMARY KEY AUTO_INCREMENT,
+    content varchar(200),
+    publishDate datetime,
+    idUser int, FOREIGN KEY(idUser) REFERENCES users(id)
+);
+CREATE TABLE userPost(
+	id int PRIMARY KEY AUTO_INCREMENT,
+    relate tinyint(1) DEFAULT null,
+    idPost int, FOREIGN KEY(idPost) REFERENCES posts(id),
+    idUser int, FOREIGN KEY(idUser) REFERENCES users(id)
+);
+CREATE TABLE comments(
+    id int PRIMARY KEY AUTO_INCREMENT,
+    content varchar(150),
+    relate tinyint(1) DEFAULT null,
+    publishDate datetime,
+    idPost int, FOREIGN KEY(idPost) REFERENCES posts(id),
+    idUser int, FOREIGN KEY(idUser) REFERENCES users(id)
+);

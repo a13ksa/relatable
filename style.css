@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter','Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    display: flex;
+    background: linear-gradient(90deg, #000 70%, #FFF 30%);
+    height: 100px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.heading1{
+    color: white;
+    text-align: center;
+    flex: 7 1 0;
+}
+.heading2{
+    flex: 3 1 0;
+    text-align: right;
+    margin-right: 50px;
+}
+.welcome{
+    margin-bottom: 40px;
+}
+.postForm{
+    display: flex;
+    gap: 4px;
+}
+.postInput{
+    padding: 10px 10px;
+    flex: 3 1 0;
+    border: 2px solid black;
+}
+.postSubmit{
+    padding: 10px 15px;
+    flex: 1 1 0;
+    border: 2px solid black;
+}
+.postComment{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    margin: 10px auto;
+}
+.firstRow{
+    display: flex;
+    justify-content: space-between;
+}
+.username{
+    border: 2px solid black;
+    padding: 5px 10px;
+}
+.extend{
+    padding: 5px 10px;
+}
+.content{
+    margin: 4px 0px;
+    border: 2px solid black;
+    padding: 10px 10px;
+}
+.thirdRow{
+    display: flex;
+    gap: 4px;
+}
+.flexThird{
+    display: flex;
+    gap: 4px;
+    flex: 1 1 0;
+    justify-content: center;
+    padding: 10px 0px;
+    border: 2px solid black;
+}
+.secondRow{
+    margin: 4px 0px;
+    border: 2px solid black;
+    display: flex;
+}
+.comment{
+    padding: 10px 10px;
+    flex: 8 1 0;
+}
+.com{
+    flex: 1 1 0;
+}
+.related{
+    background-color: greenyellow;
+}
+.cantrelated{
+    background-color: red;
+}

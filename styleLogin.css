@@ -1,0 +1,38 @@
+.loginPage{
+    background: linear-gradient(90deg, #000 50%, #FFF 50%);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 315px;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 315px;
+}
+.loginInput{
+    display: block;
+    width: 100%;
+    height: 4em;
+}
+.loginSubmit{
+    width: 100%;
+    height: 4em;
+    background-color: #000;
+    color: #fff;
+}
+.register{
+    margin-top: 1em;
+}
+.quote{
+    color: white;
+    text-align: center;
+}
