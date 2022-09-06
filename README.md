@@ -2,20 +2,17 @@
 Social Network
 Login - Register, Posts - Like, Dislike, Comment.
 
-### Home Page
-Home Page is based like this so you can access to every information or function in just one or two click. 
-![](picHomepage.PNG)
+### Login Page
+When we open our website, first we need to login or in case we don't have account we must register.
+![](picLogin.PNG)
 
-### Tables
-Category tables present READ operation of our database and this is one example.
-![](picTable.PNG)
+### Feed
+Feed is place where we can read and share relatable moments.
+![](picFeed.PNG)
 
-### Add/Edit Data
-When we want to add new information this is form that we need to fill in, on the other hand when we patch data form is already filled in and we just change content inside box.
-![](picAdddata.PNG)
-![](picEditdata.PNG)
-
-### League Simulation
-League Simulation presents league standings based on matches played in that season. 
-![](picLeaguetable.PNG)
-![](picMatches.PNG)
+### Single Post
+On feed we are limited to just relate to post, but when we extend post, we can comment and read comments of others.
+Comments contain our opinion, and before commenting we need to relate so comment can be positive or negative.
+That is the reason behind Relate and Can't Relate, commenting about your opinion on someone else's thoughts.
+![](picSingle.PNG)
+![](picSinglepost.PNG)
